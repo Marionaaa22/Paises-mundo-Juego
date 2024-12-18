@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mJugarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Jugar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/favBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Favoritos"
+        app:showAsAction="always" >
+        <menu >
+            <item
+                android:id="@+id/favTodosBtn"
+                android:title="Mostrar Todos" />
+            <item
+                android:id="@+id/favPaisesBtn"
+                android:title="Favoritos Paises" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/filtrarBtn"
+        android:title="Filtrar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/mostrarTodosBtn"
+                android:title="Mostrar Todos" />
+            <item
+                android:id="@+id/africaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Africa" />
+            <item
+                android:id="@+id/antartidaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Antartida" />
+            <item
+                android:id="@+id/asiaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Asia" />
+            <item
+                android:id="@+id/europaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Europa" />
+            <item
+                android:id="@+id/oceaniaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Oceania" />
+            <item
+                android:id="@+id/norteAmericaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="America del Norte" />
+            <item
+                android:id="@+id/surAmericBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="America del Sur" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ordenarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <item
+                android:id="@+id/paisesAZBtn"
+                android:title="Paises A-Z" />
+            <item
+                android:id="@+id/paisesZABtn"
+                android:title="Paises Z-A" />
+            <item
+                android:id="@+id/capitalesAZBtn"
+                android:title="Capitales A-Z" />
+            <item
+                android:id="@+id/capitalesZABtn"
+                android:title="Capitales Z-A" />
+        </menu>
+    </item>
+</menu>

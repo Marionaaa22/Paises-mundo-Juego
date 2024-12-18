@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cAmérica_del_Norte">#FF7E88</color>
+    <color name="cAmérica_del_Sur">#8CE7B5</color>
+    <color name="cAntártida">#F29DB4</color>
+    <color name="cEuropa">#CDA0CB</color>
+    <color name="cOceania">#32CACD</color>
+    <color name="cAsia">#FFB87A</color>
+    <color name="cÁfrica">#FFFF9F</color>
+
+    <color name="cRojo">#FA3737</color>
+    <color name="cVerde">#4CAF50</color>
+    <color name="cAzul">#3F51B5</color>
+    <color name="cAmarillo">#FFC107</color>
+    <color name="button">#484F57</color>
+    <color name="press">#55CB99</color>
+</resources>

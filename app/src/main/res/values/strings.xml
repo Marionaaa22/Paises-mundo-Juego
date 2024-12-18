@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">PaisesMariona</string>
+    <string name="jugar" />
+    <string name="favoritos" />
+    <string name="ordenar" />
+    <string name="a_z" />
+    <string name="z_a" />
+    <string name="continente" />
+    <string name="africa" />
+    <string name="antartida" />
+    <string name="asia" />
+    <string name="europa" />
+    <string name="oceania" />
+    <string name="america_del_norte" />
+    <string name="sur_america" />
+</resources>
