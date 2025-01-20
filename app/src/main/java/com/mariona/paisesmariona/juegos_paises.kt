@@ -32,6 +32,7 @@ class juegos_paises : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_juegos_paises)
+        setSupportActionBar(findViewById(R.id.toolbar1))
 
         pregunta = findViewById(R.id.tvNombreJuego)
         bandera = findViewById(R.id.tvBandera)
