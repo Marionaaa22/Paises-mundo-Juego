@@ -31,8 +31,9 @@ Diseño moderno y responsivo con interfaz intuitiva.
 ## ⚙ Instalación
 
 1. Clona este repositorio en tu máquina local:
-
+```bash
     git clone https://github.com/Marionaaa22/Paises-mundo-Juego.git
+```
 
 2. Abre el proyecto en Android Studio.
 
